@@ -1,0 +1,51 @@
+.mainheader{
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #F0F8FF;
+        height: 110px;
+        
+    }
+    .searchicon{
+        float: right;
+        position:relative; 
+        padding: 40px 50px 0px 0px;
+    }
+    .listicon{
+        position:absolute; 
+        padding: 40px 0px 0px 50px
+    }
+}
+
+.txtclo{
+    padding-top: 102px;
+    text-align: center;
+    .hfotn{
+        font-weight: normal;
+    }
+    .txttran{
+        opacity: 0.2;
+    }
+}
+
+.header:after {
+    content: "CRIOS";
+    //content: "FREE PSD TEMPLATE";  
+    font-size: 2.5em;
+    color: #87CEEB;
+    background-color: white;
+    position: absolute;
+    display: block;
+    width: 200px;
+    left: 46%;
+    margin-left: -50px;
+    height: 83px;
+    border-radius: 0px 0px 350px 350px;    
+    text-align: center;
+    font-size: 24px;
+    line-height: 16px;
+    padding-top: 14px;
+    box-shadow: 3px 3px 5px 6px #f4f0f0a3;
+}
